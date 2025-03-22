@@ -7,7 +7,7 @@ import parking.ticket.parkingticket.entity.ParkingAttendant;
 @Getter
 @Setter
 public class GateEntryResponseDto {
-    private long id;
+    private long entryGateId;
     private String name;
     private GateType gateType;
     private ParkingAttendantResponseDto parkingAttendant;

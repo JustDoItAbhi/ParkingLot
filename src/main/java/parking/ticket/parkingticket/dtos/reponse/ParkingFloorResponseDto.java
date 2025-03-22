@@ -8,7 +8,7 @@ import java.util.List;
 @Getter
 @Setter
 public class ParkingFloorResponseDto {
-    private long id;
+    private long floorId;
     private List<ParkingSpotResponseDto> spots;
     private FloorStatus status;
     private int floorNumber;

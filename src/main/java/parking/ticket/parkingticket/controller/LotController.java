@@ -24,7 +24,7 @@ public class LotController {
         return ResponseEntity.ok(service.findById(Id));
     }
     @GetMapping("/")
-    public ResponseEntity<HashMap<Long, ParkingLot>> findaLL(){
+    public ResponseEntity<HashMap<Long, ParkingLotResponseDto>> findaLL(){
         return ResponseEntity.ok(service.findAll());
     }
 }

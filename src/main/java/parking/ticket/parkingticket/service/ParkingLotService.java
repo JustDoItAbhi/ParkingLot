@@ -9,5 +9,5 @@ import java.util.HashMap;
 public interface ParkingLotService {
     ParkingLotResponseDto create(ParkingLotRequestDto dto);
     ParkingLotResponseDto findById(long id);
-    HashMap<Long, ParkingLot>findAll();
+    HashMap<Long, ParkingLotResponseDto>findAll();
 }

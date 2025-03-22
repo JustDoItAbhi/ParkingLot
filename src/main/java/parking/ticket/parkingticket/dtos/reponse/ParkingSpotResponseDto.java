@@ -10,7 +10,7 @@ import java.util.List;
 @Getter
 @Setter
 public class ParkingSpotResponseDto {
-    private long id;
+    private long spotId;
     private int number;
     private List<VehicleType> supportedVehicleType;
     private ParkingSpotStatus status;

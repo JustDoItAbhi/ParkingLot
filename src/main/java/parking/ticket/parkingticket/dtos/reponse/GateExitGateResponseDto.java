@@ -8,7 +8,7 @@ import parking.ticket.parkingticket.entity.ParkingAttendant;
 @Getter
 @Setter
 public class GateExitGateResponseDto {
-    private long id;
+    private long exitGateId;
     private String name;
     private GateType exitGate;
     private ParkingAttendantResponseDto parkingAttendant;
